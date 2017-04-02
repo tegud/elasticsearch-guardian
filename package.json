@@ -1,0 +1,28 @@
+{
+  "name": "elasticsearch-guardian",
+  "version": "0.1.0",
+  "description": "Monitor and protect an elasticsearch cluster",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tegud/elasticsearch-guardian.git"
+  },
+  "keywords": [
+    "elasticsearch",
+    "monitoring"
+  ],
+  "author": "Steve Elliott",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tegud/elasticsearch-guardian/issues"
+  },
+  "homepage": "https://github.com/tegud/elasticsearch-guardian#readme",
+  "dependencies": {
+    "elasticsearch": "^12.1.3",
+    "express": "^4.15.2",
+    "logall": "^1.0.0"
+  }
+}
